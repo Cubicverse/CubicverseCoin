@@ -208,7 +208,7 @@ public:
         genesis = CreateGenesisBlock(1595743552, 545510, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0x4966625a4b2851d9fdee139e56211a0d88575f59ed816ff5e6a63deb4e3e29a0"));
-        assert(genesis.hashMerkleRoot == uint256S("0x82dc2f3d6abf3ea470349997934dde763c35c826c1b6fe8425fdc62d620893c1"));
+        assert(genesis.hashMerkleRoot == uint256S("0x2efafb3ad5335ac78137a3de5df45730458dcd5351aea06f820ff76e8a47892a"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
