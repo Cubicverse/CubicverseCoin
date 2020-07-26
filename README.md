@@ -1,1 +1,2 @@
-# CubicverseCoin
+# Cubicverse Coin (CC)
+
